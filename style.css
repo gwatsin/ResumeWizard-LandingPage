@@ -1,0 +1,194 @@
+.home {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  /* background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 59.99, 110.5) 100%);*/
+}
+
+.home .topbar {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 407px;
+  padding: 8px 200px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .logo {
+  position: relative;
+  width: auto;
+  height: 24px;
+  background: linear-gradient(180deg, rgb(6, 143, 255) 0%, rgb(147.93, 206.84, 255) 57%, rgb(255, 255, 255) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .navbar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #eeeeee;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .line {
+  position: relative;
+  width: 1px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.home .log-in {
+  display: inline-flex;
+  align-items: center;
+  gap: 27px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .menu-two {
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #068fff;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  height: 43px;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #068fff;
+  border-radius: 4px;
+}
+
+.home .label {
+  display: inline-flex;
+  height: 20px;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: relative;
+  margin-bottom: -1px;
+}
+
+.home .action {
+  margin-top: -3px;
+  margin-bottom: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.home .hero {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  width: 1439px;
+  height: 765px; 
+  gap: 36px;
+  padding: 0px 0px;
+  position: relative;
+}
+
+.home .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  /*
+  width: 1135px;
+  height: 286px;
+  */
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.home .text1 {
+  position: relative;
+  align-self:center;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 128px;
+}
+
+.home .text2 {
+  position: relative;
+  align-self:center;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 128px;
+}
+
+.home .span {
+  color: #eeeeee;
+  letter-spacing: -1.28px;
+  line-height: 106px;
+}
+
+.home .text-wrapper-2 {
+  color: #068fff;
+  letter-spacing: -1.28px;
+  line-height: 106px;
+}
