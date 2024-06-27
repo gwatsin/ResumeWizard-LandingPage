@@ -187,3 +187,26 @@
   letter-spacing: -1.28px;
   line-height: 106px;
 }
+
+.home .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .h {
+  position: relative;
+  width: 445px;
+  margin-top: -1px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #eeeeee;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
