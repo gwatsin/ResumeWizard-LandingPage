@@ -210,3 +210,125 @@
   letter-spacing: 0;
   line-height: 28px;
 }
+
+.home .button-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: 186px;
+  height: 48px;
+}
+
+.home .label-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  position: relative;
+  background-color: #068fff;
+  border-radius: 4px;
+}
+
+.home .action-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .action-2 {
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--light-ffffff);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+/*End of hero, start of features*/
+
+.home .features {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 60px 165px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+
+.home .feature-contents {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .div-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.home .text-wrapper-3 {
+  position: relative;
+  width: 294px;
+  margin-top: -1px;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.home .all-base-UI-elements {
+  position: relative;
+  width: 350px;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #bfbfbf;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+
+.home .feature-three {
+  position: relative;
+  width: 294px;
+  font-family: "SF Pro Display-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
